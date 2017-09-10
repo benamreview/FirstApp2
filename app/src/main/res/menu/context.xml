@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.duyho.firstapp.MainActivity">
+    <item
+        android:id="@+id/ball_settings"
+        android:orderInCategory="100"
+        android:title="Ball"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/strike_settings"
+        android:orderInCategory="100"
+        android:title="Strike"
+        app:showAsAction="always|withText" />
+
+</menu>

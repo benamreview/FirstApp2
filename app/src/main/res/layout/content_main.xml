@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.duyho.firstapp.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:id = "@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="54dp"
+            android:text="Umpire Buddy"
+            android:textSize="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.182" />
+
+        <Button
+            android:id="@+id/BallBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BallTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:text="Ball"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="171dp" />
+
+        <TextView
+            android:id="@+id/BallTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/StrikeTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"
+            android:text="Ball: 0"
+            android:textSize="30dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/StrikeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="113dp"
+            android:text="Strike: 0"
+            android:textSize="30dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/OutTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/StrikeBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:text="Total Outs: 0"
+            android:textSize="35dp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/StrikeBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="178dp"
+            android:text="Strike"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="171dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

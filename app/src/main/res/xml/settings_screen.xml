@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:title = "Text-to-Speech Announchments"
+        android:key="switch"
+        android:summary= "Text-to-Speech Setting for Out and Walk"/>
+
+</PreferenceScreen>

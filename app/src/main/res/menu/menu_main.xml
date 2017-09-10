@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.duyho.firstapp.MainActivity">
+    <item
+        android:id="@+id/about_settings"
+        android:orderInCategory="100"
+        android:title="About"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/general_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/reset_settings"
+        android:orderInCategory="100"
+        android:title="Reset"
+        app:showAsAction="always|withText"
+        android:icon = "@mipmap/reset_icon"/>
+
+</menu>
